@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: var(--color-main-blue);
+    width: 100%;
+/*     padding: 10px; */
+height: 10vh;
+}
+
+:root {
+    --color-luna : #B3CDFF;
+    --color-main-blue: #5383E8;
+}
+
+.OPGG{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+   width: 20%;
+}
+.OPGG>p {
+    font-size: 13px;
+    color: #FDFDFF;
+}
+.Logo{
+    height: 15px;
+}
+.Logolol{
+    height: 25px;
+    position: relative;
+    bottom: 5px;
+}
+.navbar{
+    display: flex;
+    width: 80%;
+    background-color: #28344E;
+    justify-content: space-between;
+}
+.navbarsection{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+
+}
+
+.navbar-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-tabs>a {
+    color: #FDFDFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.logo-text {
+    position: relative;
+    bottom: 10px;
+} 
+.navbarsection-2{
+/*     display: flex; */
+    padding: 10px;
+}
+.botone-navbar{
+    position: relative;
+    bottom: 5px
+}
+select{
+    background: none;
+    border: none;
+    color: #FDFDFF;
+}
+.login{
+    background-color: var(--color-main-blue);
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px;
+   font-size: 12px;
+    border: none;
+    color: #FDFDFF;
+}
+
+
+.navbarcontent{
+    background-color: var(--color-main-blue);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.navbarcontent>div{
+    margin-left: 10%;
+}
+.buttonhover{
+    background: none;
+    color: #ffffff79;
+    border: none;
+    padding-right: 30px;
+    font-size: 15px;
+
+}
+.active{
+    color: #FDFDFF;
+}
+
+.moon {
+    color: #B3CDFF;
+}
